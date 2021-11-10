@@ -21,7 +21,6 @@ const Routers = () => {
             <Route path="/confraternizacao">
                 <Confraternizacao />
             </Route>
-
         </Switch>
 
     )
