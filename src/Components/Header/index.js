@@ -2,7 +2,7 @@ import { useCasamento } from "../../Provider/Casamento";
 import { useConfra } from "../../Provider/Confraternização";
 import { useFormatura } from "../../Provider/Formatura";
 import { Container } from "./style";
-import { useHistory } from 'react-router'
+import { useHistory } from 'react-router-dom'
 
 const Header = () => {
     const { carCasamento } = useCasamento()
